@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gender & Ethnic Disparities in Tech Companies</title>
+
+  <div class="viz-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/SKEvupiTJDY?si=0otulYSk-ghEkR_j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+  <style>
+    /* Base styling */
+    body {
+      font-family: 'Open Sans', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fdfdfd;
+      color: #333;
+    }
+
+    /* Fixed header */
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: linear-gradient(90deg, #3498db, #9b59b6);
+      color: white;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+      z-index: 1000;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+
+    /* Page content */
+    main {
+      padding: 100px 40px 40px; /* extra top padding for fixed header */
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #3498db;
+      border-bottom: 3px solid #9b59b6;
+      padding-bottom: 5px;
+      margin-top: 40px;
+    }
+
+    p {
+      margin-bottom: 20px;
+      font-size: 1.1em;
+    }
+
+    .highlight {
+      background: #ffeaa7;
+      border-left: 6px solid #e67e22;
+      padding: 15px;
+      margin: 20px 0;
+      font-weight: bold;
+      color: #2d3436;
+    }
+
+    /* Tableau embed container */
+    .viz-container {
+      margin: 40px 0;
+      text-align: center;
+    }
+
+    iframe {
+      border: none;
+      width: 100%;
+      height: 800px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      border-radius: 8px;
+    }
+
+    footer {
+      background: linear-gradient(90deg, #9b59b6, #3498db);
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Gender & Ethnic Disparities in Tech Companies</h1>
+  </header>
+
+  <main>
+    <h2>Overview</h2>
+    <p>
+      Diversity in technology companies remains a pressing issue. While progress has been made, 
+      women and underrepresented ethnic groups continue to face challenges in representation, 
+      especially in leadership roles.
+    </p>
+
+    <div class="highlight">
+      Key Insight: Women of color are the most underrepresented group in senior positions across major tech firms.
+    </div>
+
+    <h2>Gender Representation</h2>
+    <p>
+      Men make up over 70% of technical roles. Women are more likely to be found in non-technical positions, 
+      and their presence in executive leadership remains below 20%.
+    </p>
+
+    <h2>Ethnic Representation</h2>
+    <p>
+      White and Asian employees are disproportionately represented in tech, while Black and Hispanic employees 
+      remain underrepresented, particularly in management and executive roles.
+    </p>
+
+    <h2>Moving Forward</h2>
+    <p>
+      Addressing these disparities requires intentional recruitment, mentorship programs, and equitable promotion practices. 
+      Companies that prioritize diversity and inclusion benefit from stronger innovation and broader market reach.
+    </p>
+
+    <!-- Tableau Embed -->
+    <div class="viz-container">
+      <iframe src="https://public.tableau.com/views/GenderEthnicDisparitiesinTechCompanies/GenderEthnicdisparitiesinTechCompanies?:showVizHome=no&:embed=true"
+              allowfullscreen></iframe>
+    </div>
+  </main>
+  
+  <footer>
+    &copy; 2025 Diversity in Tech Report
+  </footer>
+</body>
+</html>
